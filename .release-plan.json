@@ -1,14 +1,10 @@
 {
   "solution": {
     "@embroider/addon-blueprint": {
-      "impact": "minor",
-      "oldVersion": "2.13.1",
-      "newVersion": "2.14.0",
+      "impact": "patch",
+      "oldVersion": "2.14.0",
+      "newVersion": "2.14.1",
       "constraints": [
-        {
-          "impact": "minor",
-          "reason": "Appears in changelog section :rocket: Enhancement"
-        },
         {
           "impact": "patch",
           "reason": "Appears in changelog section :bug: Bug Fix"
@@ -17,5 +13,5 @@
       "pkgJSONPath": "./package.json"
     }
   },
-  "description": "## Release (2024-03-04)\n\n@embroider/addon-blueprint 2.14.0 (minor)\n\n#### :rocket: Enhancement\n* `@embroider/addon-blueprint`\n  * [#266](https://github.com/embroider-build/addon-blueprint/pull/266) add a timeout minutes to the CI jobs ([@mansona](https://github.com/mansona))\n\n#### :bug: Bug Fix\n* `@embroider/addon-blueprint`\n  * [#268](https://github.com/embroider-build/addon-blueprint/pull/268) use our own version of ember-cli so the test app is always generated with the latest blueprint ([@mansona](https://github.com/mansona))\n\n#### Committers: 1\n- Chris Manson ([@mansona](https://github.com/mansona))\n"
+  "description": "## Release (2024-03-06)\n\n@embroider/addon-blueprint 2.14.1 (patch)\n\n#### :bug: Bug Fix\n* `@embroider/addon-blueprint`\n  * [#269](https://github.com/embroider-build/addon-blueprint/pull/269) Sort dependencies in root `package.json` file ([@bertdeblock](https://github.com/bertdeblock))\n\n#### Committers: 1\n- Bert De Block ([@bertdeblock](https://github.com/bertdeblock))\n"
 }

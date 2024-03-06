@@ -1,5 +1,16 @@
 # @embroider/addon-blueprint Changelog
 
+## Release (2024-03-06)
+
+@embroider/addon-blueprint 2.14.1 (patch)
+
+#### :bug: Bug Fix
+* `@embroider/addon-blueprint`
+  * [#269](https://github.com/embroider-build/addon-blueprint/pull/269) Sort dependencies in root `package.json` file ([@bertdeblock](https://github.com/bertdeblock))
+
+#### Committers: 1
+- Bert De Block ([@bertdeblock](https://github.com/bertdeblock))
+
 ## Release (2024-03-04)
 
 @embroider/addon-blueprint 2.14.0 (minor)
