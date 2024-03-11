@@ -10,6 +10,14 @@
   "compilerOptions": {
     "allowJs": true,
     "declarationDir": "declarations",
+    /**
+      https://www.typescriptlang.org/tsconfig#noEmit
+    
+      We want to emit declarations, so this option must be set to `false`.
+      @tsconfig/ember is more optimized for apps, which wouldn't emit anything, only type check.
+    */
+    "noEmit": false,
+
 
     /**
       https://www.typescriptlang.org/tsconfig#rootDir
